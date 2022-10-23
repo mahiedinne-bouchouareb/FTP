@@ -1,3 +1,9 @@
 #!/bin/bash
 
-adduser Merry
+#pour commencer je crée un croupe ftpgroup
+addgroup ftpgroup
+
+#puis on ajoute deux utlisateur ftp Merry et Pippin il deux mots de passe recpectif "kalimac" et "secondbreakfast"
+adduser Marry
+adduser Pippin
+
